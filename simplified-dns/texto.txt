@@ -1,0 +1,11 @@
+@ NW 192.168.0
+@ NE dominio.edu.br
+www.dominio.edu.br IP 192.168.0.1
+dns.dominio.edu.br IP 192.168.0.3
+smtp.dominio.edu.br IP 192.168.0.2
+192.168.0.1 HN www.dominio.edu.br
+192.168.0.2 HN smtp.dominio.edu.br
+192.168.0.3 HN dns.dominio.edu.br
+@ NS dns.dominio.edu.br
+@ MX smtp.dominio.edu.br
+@ TC root@dominio.edu.br
