@@ -1,0 +1,8 @@
+- Requer a biblioteca pycrypto
+- Devido à incompatibilidades das bibliotecas funciona somente em python 2
+
+- Exemplo de uso:
+
+python server_AES.py -p 5555 -k no1expectsthespanishinquisition
+
+python client_AES.py -i 127.0.0.1 -p 5555 -t 5 -f plaintext.txt -k no1expectsthespanishinquisition
